@@ -29,7 +29,7 @@ t_train_span = (t_train[0], t_train[-1])
 x_train = solve_ivp(lorenz, t_train_span, x0_train,
                     t_eval=t_train, **integrator_keywords).y.T
 # Generate measurement data
-dt = .001
+dt = .003
 feat_name = ['x','y','z']
 opt = ps.STLSQ(threshold= 0)#chooses an algorithm to solve the problem
 
