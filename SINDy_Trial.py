@@ -22,6 +22,10 @@ integrator_keywords['atol'] = 1e-12
 
 # Train of the LORENTZ MODEL
 
+# wrinting something too see if the commit push thing works
+
+print('hi there')
+
 dt = .002
 t_train = np.arange(0, 10, dt)
 x0_train = [-8, 8, 27]
